@@ -1,0 +1,256 @@
+meta:
+  direction: ltr            # text direction, "ltr" (like English) or "rtl" (like Arabic), default is "ltr"
+  language: en              # text language, the value is HTML lang attribute value, default is "en"
+
+basic:
+  name: Milad Vazan                      # name
+  title: Deep Learning Researcher          # job title 
+  avatar:
+    show: true                       # show or hide avatar
+    path: /assets/images/profile.png # file path or link to your avatar
+
+contact:
+  
+  
+  #gender:                   He/him
+  birthday:                 1992
+  nationality:              Iranian
+  visa:                     # passport visa
+  drivinglicense:           # driving licence
+  location: Tehran, IRAN  # location, text or markdown link syntax
+  email: vazanmilad@gmail.com     # email address
+  phone: +98-9370174459  # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  #website: t.me/machine_learning_and_DL     # site link without schema, like example.com, will automatically prepend "https://"
+  #github:                   milad-ai
+  linkedin:                 miladvazan
+  #googlescholar:            ynrOR0MAAAAJ&hl
+  #telegram:                 vazanmilad
+  #twitter:                  milad_vazan
+
+
+
+
+
+  # ! Do not paste the link directly.
+  # Please copy the <> part of the comment in the link to your profile on the relevant site and paste it here.
+
+  # programming
+  
+  
+
+                         # https://vk.com/<username>
+  
+profile:
+  show: true
+  order: 1
+  title: Profile
+  description: |
+    Deep Learning researcher with experience in academic collaborations.  
+    Frequent Co-authors:
+    - **Dr. Reza Rawassizadeh** ([Associate Professor, Boston University](https://scholar.google.com/citations?hl=en&user=MlmVx_UAAAAJ))
+    - **Fatemeh Sadat Masoumi** ([University of Texas at San Antonio](https://scholar.google.com/citations?user=2uS4LM0AAAAJ&hl=en)) 
+    - **Dr. Hadi Farahani** ([Assistant Professor, Shahid Beheshti University](https://scholar.google.com/citations?hl=en&user=N4TgzzoAAAAJ))
+    - **Ruizhi (Melody) Ou** ([M.S., Computer Science, Boston University](https://www.bu.edu/cbr/profile/ruizhi-melody-ou/))
+    - **Dr. Jafar Razmara** ([Associate Professor, University of Tabriz](https://scholar.google.com/citations?user=zCh6xQMAAAAJ&hl=en))
+experience:
+  show: true
+  order: 2
+  title: Teaching Experience
+  description: |
+  items:
+    - company: Shahid Beheshti University
+      date: Spring 2025
+      position: Lecturer
+      description: |
+        - [Database](https://dbsbu.github.io)
+        - [Technical Analysis](https://ta-sbu.github.io)
+    - company: Kashmar Institute of Higher Education
+      date: Spring 2023
+      position: Lecturer
+      description: |
+        - Data Structures and Algorithms 
+        - Computer Architecture 
+        - Principles of Computer Systems 
+        - Theory of Languages and Automata
+        - Principles of Data Science
+    - company: Kashmar Institute of Higher Education
+      date: Fall 2022
+      position: Lecturer
+      description: |
+        - Artificial intelligence and Expert Systems 
+        - Computer Architecture 
+    - company: Islamic Azad University, Bardaskan Branch
+      date: Fall 2022
+      position: Lecturer
+      description: |
+        - Artificial intelligence and Expert Systems 
+        - Computer Architecture 
+        - Data Structures and Algorithms 
+
+
+project:
+  show: true
+  order: 3  
+  title: Projects
+  description: |
+  items:
+    - name: SQLite Query Executor (Firefox Extension)
+      date: 2025
+      link: 'https://addons.mozilla.org/ru/firefox/addon/sqlite-query-executor/'
+      description: |
+        - This extension has been developed for the Database course at the Faculty of Mathematical Sciences, Shahid Beheshti University.
+        - Developed a Firefox extension for executing SQL queries on SQLite databases
+        - Provides a user-friendly interface for database management
+        - Used by developers and data analysts for quick database operations
+
+skill:
+  show: true
+  order: 4
+  title: Skills
+  description: |
+
+
+  groups:
+    - name: Programming
+      item:
+        - Python
+    - name: Database
+      item:
+        - PostgreSQL
+        - DuckDB
+    - name: Machine Learning Expertise
+      item:
+        - Deep Learning Architectures (CNNs, RNNs, Transformers)
+        - Machine Learning Algorithms (Supervised/Unsupervised)
+        - Model Optimization & Hyperparameter Tuning
+    - name: Professional Skills
+      item:
+        - Problem Solving & Critical Thinking
+        - Data Modeling & Feature Engineering
+        - Model Deployment & Productionization
+    - name: Data Science Stack
+      item:
+        - NumPy/Pandas (Data Manipulation)
+        - Matplotlib/Seaborn (Data Visualization)
+        - Scikit-learn
+    - name: Deep Learning Frameworks
+      item:
+        - PyTorch (Advanced)
+        - Keras/TensorFlow
+    - name: Research & Development
+      item:
+        - Academic Publication Experience
+        - Experimental Design
+    - name: Additional Technical Skills
+      item:
+        - Git Version Control
+        - Docker Containers
+education:
+  show: true
+  order: 5
+  title: Education
+  description: |
+  items:
+    - institution: Shahid Beheshti University
+      link: 
+      date: 2023 - 2027
+      major: Computer Science - Soft Computing and Artificial Intelligence
+      degree: Ph.D
+      description: |
+        Cumulative GPA: **18.94**/20
+
+
+    - institution: University of Tabriz
+      link:
+      date: 2018 - 2020
+      major: Computer Science - Soft Computing and Artificial Intelligence
+      degree: M.S.
+      description: |
+        Cumulative GPA: **19.02**/20
+        + Ranked 1st among M.S students of CS
+        + Selected as the Exceptionally Talented
+
+certificate:
+  show: true
+  order: 6
+  title: Certificates
+  description: |
+  items:
+    - name: Fundamentals of Reinforcement Learning
+      issuer: Coursera || University of Alberta
+      date: June 2021
+      link: 'https://www.coursera.org/account/accomplishments/certificate/T22C2WUKDW7Z'
+      description: |
+    - name: Practical Reinforcement Learning
+      issuer: Coursera || HSE University
+      date: June 2021
+      link: 'https://www.coursera.org/account/accomplishments/certificate/NA3JE479XZXL'
+      description: |
+    - name: Advanced Algorithms and Complexity
+      issuer: Coursera || University of California, San Diego
+      date: Jul 2021
+      link: 'https://www.coursera.org/account/accomplishments/certificate/AFDWX8YN723G'
+      description: |
+    - name: Intro to Analytic Thinking, Data Science, and Data Mining
+      issuer: Coursera || UC Irvine
+      date: Jul 2021
+      link: 'https://www.coursera.org/account/accomplishments/certificate/FAEBN5UZ2EHL'
+      description: |
+    - name: Natural Language Processing
+      issuer: Coursera || International School of Economics KAZGUU 
+      date: Jul 2021
+      link: 'https://www.coursera.org/account/accomplishments/certificate/3Y6PQR7CR2BH'
+      description: |
+    - name: Math Skills Data Science
+      issuer: Coursera || Duke University
+      date: Jun 2021
+      link: 'https://www.coursera.org/account/accomplishments/certificate/UKQZCEZ46P9Y'
+      description: |
+    - name: Mathematics for Machine Learning (Linear Algebra)
+      issuer: Coursera || Imperial College London
+      date: Jun 2021
+      link: 'https://www.coursera.org/account/accomplishments/certificate/H55WGEUE9JNV'
+      description: |
+publication:
+  show: true
+  order: 7
+  title: Publications
+  description: |
+ 
+  items:
+    - title: Augmenting Vision-Based Human Pose Estimation with Rotation Matrix
+      authors: Milad Vazan, Fatemeh Sadat Masoumi, Ruizhi Ou, and Reza Rawassizadeh
+      link: 'https://arxiv.org/pdf/2310.06068'
+    - title: Jointly modeling aspect and polarity for aspect-based sentiment analysis in persian reviews
+      authors: Milad Vazan, and Jafar Razmara
+      link: https://arxiv.org/pdf/2109.07680
+    - title: Leveraging LDA Feature Extraction to Augment Human Activity Recognition Accuracy
+      authors: Milad Vazan, Elaheh Sharifi, Hadi Farahani, Sadegh Madadi
+      link: https://www.techrxiv.org/users/795985/articles/1117234/master/file/data/samplepaper/samplepaper.pdf
+
+
+
+language:
+  show: true
+  order: 11
+  title: Languages
+  description: |
+
+  items:
+    - idiom: Farsi
+      level: Native
+
+interest:
+  show: true
+  order: 12
+  title: Interests
+  description: |
+
+  items:
+    - item: Reading
+      link: 
+    - item: Cooking
+      link:
+
+
+close: <strong>Sorry, my resume has been hidden.</strong>
