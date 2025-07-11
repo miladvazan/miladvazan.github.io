@@ -1,7 +1,7 @@
 meta:
   direction: ltr            # text direction, "ltr" (like English) or "rtl" (like Arabic), default is "ltr"
   language: en              # text language, the value is HTML lang attribute value, default is "en"
-
+ 
 basic:
   name: Milad Vazan                      # name
   title: Deep Learning Researcher          # job title 
